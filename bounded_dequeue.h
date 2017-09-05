@@ -44,14 +44,6 @@ template <typename T>
 Bounded_Dequeue<T>::Bounded_Dequeue(size_t cap)
 : size( cap + 1 ), data( new T[cap + 1] ), head(0), tail(0) {}
 
-//{
-//    size = ++cap;
-//    data = new T[size];
-//    head = 0;
-//    tail = 0;
-//}
-
-
 template <typename T>
 Bounded_Dequeue<T>::~Bounded_Dequeue(){
 	delete [] data;
