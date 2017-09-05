@@ -22,9 +22,11 @@ class Dequeue{
         virtual T peek_back() = 0;
         virtual bool is_empty() = 0;
         virtual bool is_full() = 0;
+        virtual size_t length() = 0;
         virtual void clear() = 0;
         virtual void print() = 0;
         virtual ~Dequeue() {};
 };
 
 #endif
+
