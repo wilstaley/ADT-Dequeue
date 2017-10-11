@@ -87,14 +87,6 @@ void Bounded_Dequeue<T>::push_back(T element){
     else data[tail++] = element;
 }
 
-
-
-
-
-
-
-
-
 // --------- pop_front()
 template <typename T>
 void Bounded_Dequeue<T>::pop_front(){
